@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeatherIn</title>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="weather.jquery.js"></script>
+</head>
+<body>
+	<h2>Current weather</h2>
+	<div id="weather"></div>
+
+	<script type="text/javascript">
+		//check "weather.jquery.js" for more details
+		
+		$("div#weather").weatherIn();
+
+
+		$("div#weather").weatherIn({
+			city: "buenos aires",
+			refreshPeriod: 900000
+		});
+
+		$("div#weather").weatherIn({
+			city: "Piatra Neamt"
+		});
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+
+.w_weatherContainer{
+	font-family: 'Duru Sans';
+	border: 1px solid #ccc;
+	max-width: 200px;
+	padding: 15px;
+	text-align: center;
+	background-color: #edeeef;
+	margin: 10px 0;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*.w_weatherContainer:hover{
+	background: -moz-linear-gradient(top,  #edeeef,  #e7e8e8);
+	background: -webkit-gradient(linear, left top, left bottom, from(#edeeef), to(#e7e8e8));
+}*/
+
+.w_temp{font-size: 25px;}
+
+.w_humidity{color: #898a8b;}
