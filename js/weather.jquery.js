@@ -36,7 +36,7 @@
 
 		var self = this,	//the container element on which the plugin is called
 			k, c, json,		//kelvin, celsius, response json
-		 	url = "http://api.openweathermap.org/data/2.5/weather";
+		 	url = "https://api.openweathermap.org/data/2.5/weather";
 
 		function getData(){
 			var deferred = new $.Deferred();
