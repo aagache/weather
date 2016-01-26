@@ -44,7 +44,7 @@
 			$.ajax({
 				url: url,
 				data: {q: settings.city},
-				dataType: 'json',
+				dataType: 'jsonp',
 				success: function(data){
 					json = data;
 					deferred.resolve();
